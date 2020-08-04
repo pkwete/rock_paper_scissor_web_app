@@ -27,7 +27,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-if(path.exists("my_model.hdf5"))
+if(path.exists("my_model.hdf5")):
     os.rename('my_model.hdf5','my_model.h5') 
 
 
